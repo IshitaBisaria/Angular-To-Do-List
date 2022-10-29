@@ -1,0 +1,17 @@
+.example-spacer {
+    flex: 1 1 auto;
+}
+
+.white-icon {
+    color: white;
+    background-color: #673ab7;
+    border: none;
+}
+
+.center-icon {
+    position: absolute;
+    top: 14%;
+    transform: translate(0, -50%);
+    border: 5px;
+    padding: 10px;
+}
