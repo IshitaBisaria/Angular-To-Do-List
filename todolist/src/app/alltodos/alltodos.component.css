@@ -1,0 +1,24 @@
+.white {
+    background-color: #fff;
+}
+
+ul {
+    height: 250px;
+    width: 350px;
+    overflow-x: auto;
+    white-space: nowrap;
+}
+
+button.mat-raised-button {
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    width: 120px;
+    /* position: absolute; */
+    top: 50%;
+    left: 34%;
+    transform: translate(0, -50%);
+    /* border: 5px; */
+    /* padding: 10px; */
+}
