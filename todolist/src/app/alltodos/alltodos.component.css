@@ -2,11 +2,51 @@
     background-color: #fff;
 }
 
-ul {
+.example-spacer {
+    flex: 1 1 auto;
+}
+
+.done-li {
+    margin-right: 50px;
+}
+
+.ul-div {
     height: 250px;
     width: 350px;
     overflow-x: auto;
     white-space: nowrap;
+    padding-left: 15%;
+    padding-top: 16%;
+    line-height: 2.5;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    margin-bottom: 25px;
+}
+
+#not-done {
+    margin-top: 0;
+    padding-top: 0;
+}
+
+#done {
+    margin-bottom: 0;
+    padding-bottom: 0;
+    text-decoration: line-through;
+}
+
+li {
+    color: #673ab7;
+    font-size: 18px;
+}
+
+li span {
+    color: black;
+    font-size: 16px;
+}
+
+mat-icon {
+    line-height: 1.8;
+    font-size: 20px;
 }
 
 button.mat-raised-button {
@@ -17,7 +57,7 @@ button.mat-raised-button {
     width: 120px;
     /* position: absolute; */
     top: 50%;
-    left: 34%;
+    left: 32%;
     transform: translate(0, -50%);
     /* border: 5px; */
     /* padding: 10px; */
